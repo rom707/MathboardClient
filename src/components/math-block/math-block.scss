@@ -1,0 +1,48 @@
+.math-block {
+  width: 90vw;
+  background-color: #e4e4e4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2%;
+  border: 1px solid #fff;
+
+  .input-block {
+    height: 10vh;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .label {
+      width: 85%;
+      color: #989898;
+      font-size: 18px;
+    }
+
+    .action-buttons {
+      display: flex;
+      flex-direction: row;
+
+      .close {
+        padding: 10%;
+        background-color: transparent;
+        border-radius: 4px;
+        text-shadow: none;
+        box-shadow: none;
+        outline: none;
+        border-style: ridge;
+        min-width: 33px;
+
+        &:hover {
+          background: #f3f3f3;
+        }
+      }
+    }
+  }
+
+  .output-block {
+    background-color: #fff;
+  }
+}
